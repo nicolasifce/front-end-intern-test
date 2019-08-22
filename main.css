@@ -27,7 +27,7 @@ h1 {
 	padding-left: 20px;
 }
 
-
+/*Configura a div que contém a logomarca*/
 #menu{
 	background-color:#ACD0B6;
 	height: 4.5em;
@@ -42,7 +42,7 @@ h1 {
 	padding-top: 1em;
 	padding-bottom: 1em: 
 }
-
+/*Configura a div que contém  o texto e o formulário*/
 #conteudo{
 	width:32%; 
 	display: block;
@@ -51,14 +51,13 @@ h1 {
 	background-color: ;
 	
 }
-
-.elementos{
+/*Configura todos os elementos do formulário*/
+.elementos-form{
 	width:100%;
 	margin-bottom: 1.5em;
 	border-radius: 6px;
 	
 }
-
 
 #name,#email {
 	height: 3em;
