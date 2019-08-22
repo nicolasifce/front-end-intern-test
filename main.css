@@ -5,8 +5,78 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
 
+body{
+	margin:0;
+	background-image: url('assets/04-BG.png');	
+}
+
 h1 {
     font-family: 'Cookie', cursive;
     font-size: 71px;
-    color: purple;
+    font-weight: normal;
+    line-height: 75%;
+    color: white;
+    text-align: center;
+}
+
+::placeholder{
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+#menu{
+	background-color:#ACD0B6;
+	height: 4.5em;
+	width: 100%;
+
+}
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1em;
+	padding-bottom: 1em: 
+}
+
+#conteudo{
+	width:32%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: ;
+	
+}
+
+.elementos{
+	width:100%;
+	margin-bottom: 1.5em;
+	border-radius: 6px;
+	
+}
+
+
+#name,#email {
+	height: 3em;
+}
+
+#botao{
+	width: 102%;
+	border-radius: 6px;
+	height: 2.2em;
+	background-color:#71A397;
+	color:white;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'Open Sans';
+	border:0px;
+	box-shadow: 0px 8px 0px 0px #46776D ;
+}
+
+#message{
+	resize: none;
 }
