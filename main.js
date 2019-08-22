@@ -1,5 +1,6 @@
 // Adicionamos nosso código dentro de uma função anônima para evitar
 // variáveis globais.
+
 (function() {
   // Elemento principal do formulário
   const contactForm = document.getElementById('contact');
